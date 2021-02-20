@@ -1,0 +1,14 @@
+ul {
+  border: 2px dotted #6a6a82;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  list-style: none;
+  padding-top: 55px;
+  padding-left: 3px;
+  margin-left: 400px;
+  margin-top: -120px;
+  margin-bottom: 20px;
+}

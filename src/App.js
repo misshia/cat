@@ -4,13 +4,16 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          cat react weather app
-        </h1>
+      <div className="container">
+        <Header />
         <Weather />
-       
-      </header>
+        <Temperature />
+        <img src="images/13n.png" id="icon" alt="weatherCatIcon" />
+        <Humidity />
+        <SearchForm />
+        <Forecast />
+        <Footer />
+      </div>
     </div>
   );
 }
