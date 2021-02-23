@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Card from 'react-bootstrap/Card'
-import CardDeck from 'react-bootstrap/CardDeck'
-import CardBody from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 
@@ -65,17 +62,8 @@ export default function Search() {
       <div>
         {form}
 
-      
-        <CardDeck>
-         
-           <CardBody>
-            <Card.Img variant="top" src="cat/public/images/${forecast.weather[0].icon}.png" id="icon" alt="{weather.description}" />
-            <div className="weather-forecast-temperature"> ${Math.round(forecast.main.temp)}°</div>
-
-
-              <Card  className="current-temperature"> {Math.round(weather.temperature)}°C </Card>
-           </CardBody>
-      </CardDeck>
+      </ Forecast>
+  
       </div>
     );
   } else {
