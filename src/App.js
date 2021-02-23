@@ -1,5 +1,11 @@
 import './App.css';
 import Weather from "./Weather";
+import Header from "./Header";
+import Temperature from "./Temperature";
+import Humidity from "./Humidity";
+import SearchForm from "./SearchForm";
+import Forecast from "./Forecast";
+import Footer from "./Footer";
 
 function App() {
   return (
